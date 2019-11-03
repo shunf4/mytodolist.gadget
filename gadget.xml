@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<gadget>
+ <name>My To-Do List</name>
+ <version>1.4.1</version>
+ <hosts>
+  <host name="sidebar">
+   <base type="HTML" apiVersion="1.0.0" src="index.html" />
+   <permissions>Full</permissions>
+   <platform minPlatformVersion="1.0" />
+  </host>
+ </hosts>
+ <author name="Serban Boanca">
+  <info url="http://www.dj50.ro" />
+ </author>
+ <description>A no nonsense To-Do list gadget.</description>
+ <icons><icon src="pics/icon_gadget.png" /></icons>
+</gadget>

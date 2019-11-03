@@ -1,0 +1,29 @@
+<html>
+ <head>
+  <title>My To-do List</title>
+  <link rel="stylesheet" type="text/css" href="index.css" />
+  <link rel="stylesheet" type="text/css" href="index_print.css" media="print" />
+  <script type="text/javascript" src="index.js"></script>
+  <script src="alert.vbs" type="text/vbscript"></script>
+ </head>
+ <body>
+  <div id="title" class="title_docked" ondblclick="edittitle();"></div>
+  <div id="toolbar" style="display:none">
+   <img src="pics/icon_new.png" class="icon" onmouseover="showtooltip('New',event);" onmouseout="hidetooltip();" onclick="newtodo();">
+   <img src="pics/icon_sync.png" width="16px" height="16px" class="icon" onmouseover="showtooltip('Sync',event);" onmouseout="hidetooltip();" onclick="loadfromdisktodo();">
+   <img src="pics/icon_save.png" class="icon" onmouseover="showtooltip('Save',event);" onmouseout="hidetooltip();" onclick="savetodisktodo();">
+   <img src="pics/icon_print.png" class="icon" onmouseover="showtooltip('Print',event);" onmouseout="hidetooltip();" onclick="printtodo();">
+
+   <div id="lastUpdateDate" style="font-size:14px; display:inline; color:white; word-wrap: none;">Date</div>
+  </div>
+  <div id="tooltip" class="tooltip_hidden"></div>
+  <div id="count"></div>
+  <div id="list" style="display:none"></div>
+  <div id="add">
+   <form onsubmit="return addtodo();">
+    <input type="image" src="pics/add.png" class="button" />
+    <input type="text" id="addinput" class="addinput_docked" value="Add Task" onblur="checkblur();" onfocus="checkfocus();" maxlength="255" />
+   </form>
+  </div>
+ </body>
+</html>

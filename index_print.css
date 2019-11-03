@@ -1,0 +1,12 @@
+table { border:0px; border-spacing: 0px; border-collapse: collapse; width:100% }
+table td { padding: 0px 2px 0px 2px; border:0px; font:13px "Calibri" }
+.tdl { width:20px; vertical-align:top }
+.tdr { }
+.tdr_completed { text-decoration: line-through; color:#777777 }
+.tdd { display:none }
+.tooltip_hidden { display:none }
+
+#title { font:18px "Segoe Script" bold; height:30px }
+#toolbar { display:none }
+#list { font:11px "Calibri" }
+#add { display:none }

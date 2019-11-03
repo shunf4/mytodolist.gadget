@@ -1,0 +1,34 @@
+body {
+ margin:4px 10px 4px 10px; width:130px; height:93px;
+ scrollbar-3dlight-color:#171b2a; scrollbar-arrow-color:#0e101a; scrollbar-base-color:#171b2a; scrollbar-darkshadow-color:#171b2a; scrollbar-face-color:#868a95; scrollbar-highlight-color:#171b2a;  scrollbar-shadow-color:#171b2a; scrollbar-track-color:#171b2a;
+ background:url(pics/bk_130.png) no-repeat;
+}
+table { border:0px; border-spacing: 0px; border-collapse: collapse; width:100% }
+table td { padding: 0px 2px 0px 2px; border:0px; font:13px "Calibri"; color:#ffffff }
+form { display:inline }
+.tdl { width:20px; vertical-align:top }
+.tdr { }
+.tdr_completed { text-decoration: line-through; color:#4c5161 } 
+.tdd { width:10px; vertical-align:top }
+.icon { margin:7px 10px 0px 0px; cursor:pointer }
+.tooltip {
+ display:inline; font:12px "Calibri"; height:18px; line-height:18px; position:absolute; padding:0px 6px 0px 6px; background:#eff0f6; border:1px solid #767676;
+ filter:progid:DXImageTransform.Microsoft.Shadow(color=#000000,direction=135,strength=2)
+}
+.tooltip_hidden { display:none }
+
+.title { font:18px "Segoe Script" bold; color:#ffffff; height:30px; width:246px; overflow:hidden; white-space:nowrap; }
+.title_docked { font:13px "Segoe Script" bold; color:#ffffff; width:110px; height:24px; padding-top:4px; overflow:hidden; white-space:nowrap; }
+#toolbar { height:30px }
+#list { font:11px "Calibri"; color:#ffffff; height:142px; overflow:auto }
+#add { height:22px }
+.addinput { width:218px; border:0px; font:13px "Calibri"; line-height:18px; margin-top:0px; background:transparent; color:#ffffff }
+.addinput_docked { width:82px; border:0px; font:13px "Calibri"; line-height:18px; margin-top:0px; background:transparent; color:#ffffff }
+#editor { background:#ffffff; border:0px; padding:0px; font:13px "Calibri"; width:183px }
+.editortitle { background:#ffffff; border:0px; padding:0px; font:18px "Segoe Script"; width:100% }
+.editortitle_docked { background:#ffffff; border:0px; padding:0px; font:13px "Segoe Script"; width:100% }
+#count { font:13px "Calibri"; font-weight:bold; height:39px; text-align:center; color:#FFFFFF; }
+
+.button { border:0px; float:right; margin-top:3px; cursor:pointer; margin-right:2px }
+.droptarget { background:transparent }
+.droptarget_hover { background:#FFFFFF }
